@@ -1,0 +1,20 @@
+
+.navigation {
+    margin-bottom:5em;
+    
+}
+#header {
+    font-size:6rem;
+    font-family: 'Akronim', cursive;
+    background-image:linear-gradient(to right ,#833ab4,#fd1d1d,#fcb045);
+    padding:5rem;
+}
+
+@media (max-width: 1200px) {
+  
+   #header{
+        font-size:3rem;
+   }
+  
+}
+
