@@ -15,10 +15,10 @@ class HeroesList extends React.Component {
         findHero:false
     }
   
-    async componentWillMount() {
+    async componentDidMount() {
      
     
-       for(let i = 1;i <= 1;i++){
+       for(let i = 1;i <= 731;i++){
                 const res = await axios.get(`${url}/${i}`)
              
 
